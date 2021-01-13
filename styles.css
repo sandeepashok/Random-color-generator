@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+
+.container .hexColor {
+    text-transform: capitalize;
+}
+
+.hex-code {
+    font-size: 3rem;
+}
+
+.generate-btn {
+    color: rgb(235, 29, 14);
+    border: crimson;
+    border-radius: 7px;
+    outline: none;
+    margin-top: 1.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
